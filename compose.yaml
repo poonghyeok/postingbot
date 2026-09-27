@@ -1,0 +1,9 @@
+services:
+  postingbot:
+    build:
+      context: .
+    image: postingbot:local
+    env_file:
+      - .env
+    init: true
+    restart: unless-stopped

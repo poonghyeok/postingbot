@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+geminiapikey
+github_posting_token
+openai_apikey
+telegrambottoken
